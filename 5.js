@@ -101,7 +101,7 @@ const draw = () => {
 const getDefaultPainter = (width, height) => {
 	return {
 		angle: (Math.PI * 2) * Math.random(),
-		speed: 4 + Math.random(),
+		speed: 0.5 + Math.random(),
 		position: {
 			x: width * Math.random(),
 			y: height * Math.random(),
